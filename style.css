@@ -1,0 +1,148 @@
+/* common css  */
+body {
+    margin: 0;
+    font-family: 'Roboto', ;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 25px;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 300px;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 80%;
+}
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC4C7A, #EC4C94);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+/*  */
+
+/* introduction section */
+.introduction-section {
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+
+#jack-name {
+    font-size: 55px;
+    color: #EC4C7A;
+}
+/*  */
+
+
+/* biography section */
+.biography-section {
+
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+}
+/*  */
+
+/* Latest work section */
+.latest-work {
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+}
+
+#latest-work-header {
+    text-align: center;
+}
+
+.latest-work-container img {
+    height: 300px;
+    width: 400px;
+}
+
+.latest-work-1 {
+    width: 25%;
+    float: left;
+    margin-left: 140px;
+    margin-right: 25px;
+
+}
+
+.latest-work-2 {
+    width: 25%;
+    float: left;
+    margin-left: 90px;
+    margin-right: 25px;
+
+}
+
+.latest-work-3 {
+    width: 25%;
+    float: left;
+    margin-left: 90px;
+    margin-right: 25px;
+
+}
+/*  */
+
+/* Client section  */
+.client-section {
+    text-align: center;
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+
+}
+
+.client-message-details img {
+    height: 170px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.client-message-details h3 {
+    font-size: 30px;
+}
+
+.client-message-details p {
+    font-size: 20px;
+}
+/*  */
+
+/* big section  */
+.big-link {
+    width: 40%;
+    margin: auto;
+    background-color: #EC4C7A;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 40px;
+}
+/*  */
+
+
+/* footer */
+footer {
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+/*  */
